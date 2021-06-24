@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'bootstrap-5/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'scss/link_home.css' %}" rel="stylesheet">
+
+    <title>My Links</title>
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        {% block content %}{% endblock content %}
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="{% static 'bootstrap-5/js/bootstrap.bundle.min.js' %}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.main-card {
+  margin: auto;
+  padding: 1rem;
+  max-width: 560px;
+  border: none;
+}
+
+.main-card a:link {
+  text-decoration: none;
+}
+
+.main-card a:visited {
+  text-decoration: none;
+}
+
+.main-card a:hover {
+  text-decoration: none;
+}
+
+.main-card a:active {
+  text-decoration: none;
+}
+
+.main-card a {
+  color: #222222;
+}
+
+.main-card .inner-card {
+  padding: 1rem;
+}
+
+.container {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=link_home.css.map */

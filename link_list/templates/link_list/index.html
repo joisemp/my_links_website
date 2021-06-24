@@ -1,3 +1,20 @@
-<h1>
-    Links
-</h1>
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card main-card">
+{% for link in links %}
+    <a href="{{link.link}}" class="card inner-card mt-3 btn btn-outline-dark">
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <img src="{{link.image}}" alt="imagelink">
+            </div>
+            -->
+            <div class="col-12 text-center">
+                <h5>{{link.name}}</h5>
+            </div>
+        </div>
+    </a>
+{% endfor %}
+</div>
+{% endblock content %}
